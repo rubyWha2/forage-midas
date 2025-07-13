@@ -1,0 +1,13 @@
+# Kafka topic name used in your project
+general.kafka-topic=test-topic
+
+# Kafka bootstrap server URL for local testing (adjust if you have your own Kafka)
+spring.kafka.bootstrap-servers=localhost:9092
+
+# H2 database settings (in-memory DB for tests)
+spring.datasource.url=jdbc:h2:mem:testdb
+spring.datasource.driverClassName=org.h2.Driver
+spring.datasource.username=sa
+spring.datasource.password=
+spring.jpa.database-platform=org.hibernate.dialect.H2Dialect
+spring.jpa.hibernate.ddl-auto=update
